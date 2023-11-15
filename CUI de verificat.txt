@@ -1,0 +1,175 @@
+mihai@LENOVO MINGW64 /f/Media Expres/2023/ANUAR 2023-2024/Python Scrap CUI from company names list
+$ python get_CUI_google.py
+Website of CENTRUL MULTIMEDIA SARBO-ROMAN MEDIALINK: http://www.asociatii.net/timis/asociatie-centrul-multimedia-sarbo-roman-medialink2727-asociatie-cui30748322.html
+Could not find CUI for CENTRUL MULTIMEDIA SARBO-ROMAN MEDIALINK
+Website of HUNYADI LASZLO ÃŽNTREPRINDERE INDIVIDUALÄ‚: https://hu.wikipedia.org/wiki/Hunyadi_L%C3%A1szl%C3%B3_(horv%C3%A1t_b%C3%A1n)
+Could not find CUI for HUNYADI LASZLO ÃŽNTREPRINDERE INDIVIDUALÄ‚
+Website of ADA SYSTEM TELECOM SRL: https://www.listafirme.ro/ada-system-telecom-srl-30273304/
+Could not find CUI for ADA SYSTEM TELECOM SRL
+Website of ARNET TELECOM SRL: https://www.listafirme.ro/arnet-telecom-srl-43442758/
+Could not find CUI for ARNET TELECOM SRL
+Website of BANAT NETWORK INTEGRATED COMMUNICATIONS SRL: https://www.listafirme.ro/banat-network-integrated-communications-srl-39230536/
+Could not find CUI for BANAT NETWORK INTEGRATED COMMUNICATIONS SRL
+Website of BROTHER SRL: https://www.listafirme.ro/brother-srl-23113181/
+Could not find CUI for BROTHER SRL
+Website of CABEL TV SISTEM SRL: https://www.listafirme.ro/cabel-tv-sistem-srl-13853255/
+Could not find CUI for CABEL TV SISTEM SRL
+Website of CLAR TELEVISION SRL: https://www.listafirme.ro/clar-television-srl-26389816/
+Could not find CUI for CLAR TELEVISION SRL
+Website of CNETWORK FIBERZONE SRL: https://www.listafirme.ro/cnetwork-fiberzone-srl-34005380/
+Could not find CUI for CNETWORK FIBERZONE SRL
+Website of COMARAD TELPREST SRL: https://www.listafirme.ro/comarad-telprest-srl-41168754/
+Could not find CUI for COMARAD TELPREST SRL
+Website of COMDASI TELECOM SRL: https://www.listafirme.ro/comdasi-telecom-srl-39441690/
+Could not find CUI for COMDASI TELECOM SRL
+Website of COMETEINET TELECOM SRL: https://www.listafirme.ro/cometeinet-telecom-srl-33643460/
+Could not find CUI for COMETEINET TELECOM SRL
+Website of CONS PROD 21 SRL: https://www.listafirme.ro/cons-prod-21-srl-8480761/
+Could not find CUI for CONS PROD 21 SRL
+Website of CORE JOY COMMUNICATION SRL: https://www.listafirme.ro/core-joy-communication-srl-47022650/
+Could not find CUI for CORE JOY COMMUNICATION SRL
+Website of DANMARK COMPANY SRL: https://www.listafirme.ro/danmark-company-srl-2068010/
+Could not find CUI for DANMARK COMPANY SRL
+Website of DC FIBER HOME SRL: https://www.listafirme.ro/dc-fiber-home-srl-30747947/
+Could not find CUI for DC FIBER HOME SRL
+Website of DEYVID COM SRL: https://www.listafirme.ro/deyvid-com-srl-7541712/
+Could not find CUI for DEYVID COM SRL
+Website of DIGI COMMUNICATION SRL: https://www.romanian-companies.eu/digi-communication-srl-9279031/
+Could not find CUI for DIGI COMMUNICATION SRL
+Website of DYNAMIC DISTRIBUTION SRL: https://www.listafirme.ro/dynamic-distribution-srl-11296654/
+Could not find CUI for DYNAMIC DISTRIBUTION SRL
+Website of ELCOMSERV SRL: https://www.listafirme.ro/elcomserv-srl-1280456/
+Could not find CUI for ELCOMSERV SRL
+Website of ELECTRO-SAT SRL: https://www.listafirme.ro/electro-sat-srl-5147070/
+Could not find CUI for ELECTRO-SAT SRL
+Website of EURONET SYSTEM SRL: https://www.listafirme.ro/euronet-system-srl-39620334/
+Could not find CUI for EURONET SYSTEM SRL
+Website of FIBERDATA ZYX SRL: https://www.listafirme.ro/fiberdata-zyx-srl-33100901/
+Could not find CUI for FIBERDATA ZYX SRL
+Website of FIBERPLUS SRL: https://www.listafirme.ro/fiberplus-srl-36432247/
+Could not find CUI for FIBERPLUS SRL
+Website of FREESAT SRL: https://www.listafirme.ro/freesat-srl-29845410/
+Could not find CUI for FREESAT SRL
+Website of GABMAR CABLE SRL: https://www.risco.ro/verifica-firma/gabmar-cable-srl-cui-17666349
+Could not find CUI for GABMAR CABLE SRL
+Website of GLIGA COMIMPEX SRL: https://www.listafirme.ro/gliga-comimpex-srl-4526548/
+Could not find CUI for GLIGA COMIMPEX SRL
+Website of GMB COMPUTERS SRL: https://www.listafirme.ro/gmb-computers-srl-1887661/
+Could not find CUI for GMB COMPUTERS SRL
+Website of HD CAT SRL: https://www.listafirme.ro/hd-cat-srl-24598786/
+Could not find CUI for HD CAT SRL
+Website of HINGSAT COMUNICATION SRL: https://www.listafirme.ro/hingsat-comunication-srl-28163822/
+Could not find CUI for HINGSAT COMUNICATION SRL
+Website of IMPULS CONSTRUCT SRL: https://www.listafirme.ro/impuls-construct-srl-23225983/
+Could not find CUI for IMPULS CONSTRUCT SRL
+Website of INES GROUP SRL: https://www.listafirme.ro/ines-group-srl-4021138/
+Could not find CUI for INES GROUP SRL
+Website of INFO-JUNIOR SRL: https://www.listafirme.ro/info-junior-srl-3763937/
+Could not find CUI for INFO-JUNIOR SRL
+Website of INTERLOGIC DESIGN SRL: https://www.listafirme.ro/interlogic-design-srl-20689539/
+Could not find CUI for INTERLOGIC DESIGN SRL
+Website of INTERNATIONAL OLISAT SRL: https://www.listafirme.ro/international-olisat-srl-23801393/
+Could not find CUI for INTERNATIONAL OLISAT SRL
+Website of INTERSAT SRL: https://www.listafirme.ro/intersat-srl-4785178/
+Could not find CUI for INTERSAT SRL
+Website of KODAN TV SRL: https://www.listafirme.ro/kodan-tv-srl-32287586/
+Could not find CUI for KODAN TV SRL
+Website of KYSS CABLE SAT SRL: https://www.listafirme.ro/kyss-cable-sat-srl-30766353/
+Could not find CUI for KYSS CABLE SAT SRL
+Website of MARCO BEN COMPANY SRL: https://www.listafirme.ro/marco-ben-company-srl-16543119/
+Could not find CUI for MARCO BEN COMPANY SRL
+Website of MAVLINK SRL: https://www.listafirme.ro/mavlink-srl-33572190/
+Could not find CUI for MAVLINK SRL
+Website of MC SAT SRL: https://www.listafirme.ro/mc-sat-srl-14055464/
+Could not find CUI for MC SAT SRL
+Website of MEDIA SAT SRL: https://www.listafirme.ro/media-sat-srl-9942028/
+Could not find CUI for MEDIA SAT SRL
+Website of MEDIA SUD SRL: https://www.listafirme.ro/media-sud-srl-8983232/
+Could not find CUI for MEDIA SUD SRL
+Website of MEDIA SYSTEM TELEVISION SRL: https://www.listafirme.ro/media-system-television-srl-27137540/
+Could not find CUI for MEDIA SYSTEM TELEVISION SRL
+Website of MEDICOM STARNET SRL: https://www.listafirme.ro/medicom-starnet-srl-40854460/
+Could not find CUI for MEDICOM STARNET SRL
+Website of MEGA NET TELEKOM SRL: https://www.listafirme.ro/mega-net-telekom-srl-25901950/
+Could not find CUI for MEGA NET TELEKOM SRL
+Website of MIRDARA SRL: https://www.listafirme.ro/mirdara-srl-9903126/
+Could not find CUI for MIRDARA SRL
+Website of MONDO-BYTE SRL: https://www.listafirme.ro/mondo-byte-srl-16831189/
+Could not find CUI for MONDO-BYTE SRL
+Website of NASTY TELSAT SRL: https://www.listafirme.ro/nasty-telsat-net-srl-34176088/
+Could not find CUI for NASTY TELSAT SRL
+Website of NETERGY TELECOM SRL: https://www.listafirme.ro/netergy-telecom-srl-35301740/
+Could not find CUI for NETERGY TELECOM SRL
+Website of NETFIL SRL: https://www.listafirme.ro/netfil-srl-14467627/
+Could not find CUI for NETFIL SRL
+Website of NEXT LEVEL CONNECT SRL: https://www.listafirme.ro/next-level-connect-srl-33953780/
+Could not find CUI for NEXT LEVEL CONNECT SRL
+Website of NEXT START SRL: https://www.listafirme.ro/next-start-srl-27882048/
+Could not find CUI for NEXT START SRL
+Website of NEXTGEN COMMUNICATIONS SRL: https://www.listafirme.ro/nextgen-communications-srl-24166583/
+Could not find CUI for NEXTGEN COMMUNICATIONS SRL
+Website of NICOLPET-TV SRL: https://www.listafirme.ro/nicolpet-tv.-srl-14902526/
+Could not find CUI for NICOLPET-TV SRL
+Website of OMEGA NET SRL: https://www.listafirme.ro/omega-net-srl-17940370/
+Could not find CUI for OMEGA NET SRL
+Website of ORANGE ROMANIA COMMUNICATIONS SA: https://www.listafirme.ro/orange-romania-communications-sa-427320/
+Could not find CUI for ORANGE ROMANIA COMMUNICATIONS SA
+Website of ORANGE ROMANIA SA: https://www.listafirme.ro/orange-romania-sa-9010105/
+Could not find CUI for ORANGE ROMANIA SA
+Website of OTI-MEX SRL: https://www.listafirme.ro/oti-mex-srl-18363068/
+Could not find CUI for OTI-MEX SRL
+Website of OVIAND SAT SRL: https://www.listafirme.ro/oviand-sat-srl-10379816/
+Could not find CUI for OVIAND SAT SRL
+Website of P.C. NET-C.A.T.V. SRL: https://www.listafirme.ro/p.c.-net-c.a.t.v.-srl-13715325/
+Could not find CUI for P.C. NET-C.A.T.V. SRL
+Website of PHOENIX TELECOM &NETWORK SERVICES SRL: https://www.listafirme.ro/phoenix-telecom-network-services-srl-33175963/
+Could not find CUI for PHOENIX TELECOM &NETWORK SERVICES SRL
+Website of POWER NET TELECOM SRL: https://www.listafirme.ro/power-net-telecom-srl-26132498/
+Could not find CUI for POWER NET TELECOM SRL
+Website of RANDOM TELECOM SRL: https://www.listafirme.ro/random-telecom-srl-32845542/
+Could not find CUI for RANDOM TELECOM SRL
+Website of RCS & RDS SA: https://www.listafirme.ro/rcs-rds-sa-5888716/
+Could not find CUI for RCS & RDS SA
+Website of RETEAUA DE CABLU TV SRL: https://www.listafirme.ro/reteaua-de-cablu-tv-srl-41511614/
+Could not find CUI for RETEAUA DE CABLU TV SRL
+Website of ROUMANIAN ELECTRONIC SERVICE SRL: https://www.listafirme.ro/roumanian-electronic-service-srl-4614518/
+Could not find CUI for ROUMANIAN ELECTRONIC SERVICE SRL
+Website of SEBISAT-TV SRL: https://www.listafirme.ro/sebisat-tv-srl-18553801/
+Could not find CUI for SEBISAT-TV SRL
+Website of SONISAT SRL: https://www.listafirme.ro/sonisat-srl-16930867/
+Could not find CUI for SONISAT SRL
+Website of SOUNDWAVE SRL: https://www.listafirme.ro/soundwave-srl-10775713/
+Could not find CUI for SOUNDWAVE SRL
+Website of SPEEDNET INTER SOLUTIONS SRL: https://www.listafirme.ro/speednet-inter-solutions-srl-30363270/
+Could not find CUI for SPEEDNET INTER SOLUTIONS SRL
+Website of SPEEDNETWORK SRL: https://www.listafirme.ro/speednetwork-srl-6042447/
+Could not find CUI for SPEEDNETWORK SRL
+Website of SWEET TV GROUP RO SRL: https://www.listafirme.ro/sweet-tv-group-ro-srl-47900270/
+Could not find CUI for SWEET TV GROUP RO SRL
+Website of TCS MEDIA POWER NETWORK SRL: https://www.listafirme.ro/tcs-media-power-network-srl-36779697/
+Could not find CUI for TCS MEDIA POWER NETWORK SRL
+Website of TELECOM ARDEAL SRL: https://www.listafirme.ro/telecom-ardeal-srl-30318350/
+Could not find CUI for TELECOM ARDEAL SRL
+Website of TELEPLUS SRL: https://www.listafirme.ro/teleplus-srl-17301539/
+Could not find CUI for TELEPLUS SRL
+Website of TELEVIZIUNEA PUTNA SRL: https://www.listafirme.ro/televiziunea-putna-srl-17979451/
+Could not find CUI for TELEVIZIUNEA PUTNA SRL
+Website of TRATEL COMUNICATII SRL: https://www.listafirme.ro/tratel-comunicatii-srl-31109149/
+Could not find CUI for TRATEL COMUNICATII SRL
+Website of TRATEL SERV SRL: https://www.listafirme.ro/tratel-serv-srl-38337764/
+Could not find CUI for TRATEL SERV SRL
+Website of TV ALFA OMEGA 2005 SRL: https://www.listafirme.ro/tv-alfa-omega-2005-srl-17113179/
+Could not find CUI for TV ALFA OMEGA 2005 SRL
+Website of TV NET STAR 2018 SRL: https://www.listafirme.ro/tv-net-star-2018-srl-40270542/
+Could not find CUI for TV NET STAR 2018 SRL
+Website of TV SAT 2002 SRL: https://www.listafirme.ro/tv-sat-2002-srl-14763924/
+Could not find CUI for TV SAT 2002 SRL
+Website of TV SAT PARTENER SRL: https://www.listafirme.ro/tv-sat-partener-srl-38254790/
+Could not find CUI for TV SAT PARTENER SRL
+Website of TV SAT SRL: https://www.listafirme.ro/tv-sat-srl-15903597/
+Could not find CUI for TV SAT SRL
+Website of VODAFONE ROMANIA SA: https://www.listafirme.ro/vodafone-romania-sa-8971726/
+Could not find CUI for VODAFONE ROMANIA SA
+Website of TOTH PIROSKA INTREPRINDERE INDIVIDUALA: https://www.ancom.ro/lista-furnizori-frsce-total_5301/Pagina/200
+Could not find CUI for TOTH PIROSKA INTREPRINDERE INDIVIDUALA
+No results found for VAN GROUP S.R.O.
