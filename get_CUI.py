@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 import csv
 
 # Open the CSV file with company names
-with open('nume_companii_cablu.csv', 'r') as input_file:
+with open('nume_companii_TV.csv', 'r') as input_file:
     # Create a CSV reader object
     reader = csv.reader(input_file)
     # Skip the header row
     next(reader)
     # Open a new CSV file to write the output
-    with open('output.csv', 'w') as output_file:
+    with open('output_TV.csv', 'w') as output_file:
         # Create a CSV writer object
         writer = csv.writer(output_file)
         # Write the header row
@@ -20,7 +20,7 @@ with open('nume_companii_cablu.csv', 'r') as input_file:
             # Get the company name
             company_name = row[0]
             # Construct the URL for the search query
-            url = 'https://www.risco.ro/' + company_name
+            url = 'https://listafirme.ro/' + company_name
             # Make a GET request to the URL
             response = requests.get(url)
             # Check if the response is successful
