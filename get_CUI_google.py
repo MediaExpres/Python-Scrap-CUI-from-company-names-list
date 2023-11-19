@@ -3,13 +3,13 @@ from googlesearch import search
 import csv
 
 # Open the CSV file with company names
-with open('nume_companii_cablu.csv', 'r') as input_file:
+with open('nume_companii_TV.csv', 'r') as input_file:
     # Create a CSV reader object
     reader = csv.reader(input_file)
     # Skip the header row
     next(reader)
     # Open a new CSV file to write the output
-    with open('output.csv', 'w') as output_file:
+    with open('output_TV.csv', 'w') as output_file:
         # Create a CSV writer object
         writer = csv.writer(output_file)
         # Write the header row
