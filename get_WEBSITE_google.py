@@ -1,49 +1,56 @@
-# Import the libraries
-from googlesearch import search
-import csv
+Sure, I can help you with that. Here is a possible python code that can do the task you requested:
 
-# Open the CSV file with company names
-with open('nume_companii_TV_straine.csv', 'r') as input_file:
-    # Create a CSV reader object
-    reader = csv.reader(input_file)
+Python
+AI-generated code. Review and use carefully. More info on FAQ.
+
+# Import the modules
+import csv
+import requests
+from bs4 import BeautifulSoup
+
+# Define the input and output files
+input_file = "companies.csv"
+output_file = "websites.csv"
+
+# Define the function to search for a company's website using Google
+def search_website(company):
+    # Construct the Bing search query
+    query = company + " site:.com OR site:.net OR site:.ro OR site:.org OR site:.tv OR site:.eu"
+    # Use the search_web tool to get the Bing search results
+    results = search_web(query)
+    # Parse the results using JSON
+    results = json.loads(results)
+    # Find the first result that has a .com domain
+    for result in results["web_search_results"]:
+        link = result["url"]
+        if link.endswith(".com/") or link.endswith(".com"):
+            # Return the website link
+            return link
+    # If no website is found, return None
+    return None
+
+# Open the input file and read the company names
+with open(input_file, "r") as input:
+    reader = csv.reader(input)
     # Skip the header row
     next(reader)
-    # Open a new CSV file to write the output
-    with open('output_TV_straine.csv', 'w') as output_file:
-        # Create a CSV writer object
-        writer = csv.writer(output_file)
-        # Write the header row
-        writer.writerow(['Company Name', 'WEBSITE'])
-        # Loop through each row in the input file
-        for row in reader:
-            # Get the company name
-            company_name = row[0]
-            # Search for the company CUI using Google
-            query = company_name + " CUI"
-            results = search(query, num=1, stop=1)
-            # Try to get the first result
-            try:
-                website = next(results)
-                # Print the website
-                print(f"Website of {company_name}: {website}")
-                # Split the website by '-'
-                website_parts = website.split('-')
-                # Get the last part, which is the CUI
-                cui = website_parts[-1].strip()
-                # Try to convert the CUI to an integer
-                try:
-                    
-                    # Write the company name and the CUI to the output file
-                    writer.writerow([company_name, cui])
-                    # Print a message
-                    print(f'Found CUI for {company_name}: {cui}')
-                except ValueError:
-                    # Print a message
-                    print(f'CUI for {company_name} is not an integer')
-                    # Write the company name and CUI not found to the output file
-                    writer.writerow([company_name, 'CUI not found'])
-            except StopIteration:
-                # Print a message
-                print(f'No results found for {company_name}')
-                # Write the company name and CUI not found to the output file
-                writer.writerow([company_name, 'CUI not found'])
+    # Create a list of company names
+    companies = [row[0] for row in reader]
+
+# Create a list of websites
+websites = []
+# Loop through the company names
+for company in companies:
+    # Search for the website using the function
+    website = search_website(company)
+    # Append the website to the list
+    websites.append(website)
+
+# Open the output file and write the websites
+with open(output_file, "w") as output:
+    writer = csv.writer(output)
+    # Write the header row
+    writer.writerow(["Company", "Website"])
+    # Write the company and website pairs
+    for i in range(len(companies)):
+        writer.writerow([companies[i], websites[i]])
