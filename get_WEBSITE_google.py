@@ -15,14 +15,14 @@ def search_website(company):
     # Use the search_web tool to get the Bing search results
     results = requests.get("https://www.bing.com/search?q=" + query).text
     # Parse the results using JSON
-    results = json.loads(results)
-    results = results["web_search_results"]
+    soup = BeautifulSoup(results, "html.parser")
+    results = soup.find_all("li", class_="b_algo")
     # Find the first result that has a .com domain
-    for result in results["web_search_results"]:
-        link = result["url"]
-        if link.endswith(".com/") or link.endswith(".com"):
-            # Return the website link
-            return link
+   for result in results:
+    link = result.find("a")["href"]
+    if link.endswith(".com/") or link.endswith(".com"):
+        # Return the website link
+        return link
     # If no website is found, return None
     return None
 
