@@ -1,8 +1,3 @@
-Sure, I can help you with that. Here is a possible python code that can do the task you requested:
-
-Python
-AI-generated code. Review and use carefully. More info on FAQ.
-
 # Import the modules
 import csv
 import requests
