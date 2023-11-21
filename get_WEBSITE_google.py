@@ -2,6 +2,7 @@
 import csv
 import requests
 from bs4 import BeautifulSoup
+import json
 
 # Define the input and output files
 input_file = "nume_companii_TV_straine.csv"
@@ -15,6 +16,7 @@ def search_website(company):
     results = requests.get("https://www.bing.com/search?q=" + query).text
     # Parse the results using JSON
     results = json.loads(results)
+    results = results["web_search_results"]
     # Find the first result that has a .com domain
     for result in results["web_search_results"]:
         link = result["url"]
