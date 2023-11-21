@@ -9,11 +9,11 @@ with open('nume_companii_TV_straine.csv', 'r') as input_file:
     # Skip the header row
     next(reader)
     # Open a new CSV file to write the output
-    with open('output_TV.csv', 'w') as output_file:
+    with open('output_TV_straine.csv', 'w') as output_file:
         # Create a CSV writer object
         writer = csv.writer(output_file)
         # Write the header row
-        writer.writerow(['Company Name', 'CUI'])
+        writer.writerow(['Company Name', 'WEBSITE'])
         # Loop through each row in the input file
         for row in reader:
             # Get the company name
