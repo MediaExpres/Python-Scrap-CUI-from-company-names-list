@@ -9,8 +9,8 @@ import requests
 from bs4 import BeautifulSoup
 
 # Define the input and output files
-input_file = "companies.csv"
-output_file = "websites.csv"
+input_file = "nume_companii_TV_straine.csv"
+output_file = "nume_companii_TV_straine_cu_web.csv"
 
 # Define the function to search for a company's website using Google
 def search_website(company):
