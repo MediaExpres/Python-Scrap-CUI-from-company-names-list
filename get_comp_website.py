@@ -1,6 +1,7 @@
 import csv
 import requests
 from bs4 import BeautifulSoup
+import time
 
 def find_website(company):
     # Function to find the website of a company using web scraping
@@ -38,6 +39,9 @@ def main(input_csv, output_csv):
         website = find_website(company)
         results.append({'Company': company, 'Website': website})
 
+        # Introduce a delay between requests to avoid rate limits
+        time.sleep(2)  # Adjust the delay time as needed
+
     # Write results to a new CSV file
     with open(output_csv, 'w', newline='') as outfile:
         writer = csv.DictWriter(outfile, fieldnames=['Company', 'Website'])
@@ -45,7 +49,7 @@ def main(input_csv, output_csv):
         writer.writerows(results)
 
 if __name__ == "__main__":
-    input_csv = "nume_companii_TV_straine.csv"  # Replace with the path to your input CSV file
+    input_csv = "nume_companii_TV_straine.csv]"  # Replace with the path to your input CSV file
     output_csv = "output_companii_TV_straine_with_websites.csv"  # Replace with the desired output CSV file path
 
     main(input_csv, output_csv)
