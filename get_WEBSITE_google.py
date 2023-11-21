@@ -18,11 +18,12 @@ def search_website(company):
     soup = BeautifulSoup(results, "html.parser")
     results = soup.find_all("li", class_="b_algo")
     # Find the first result that has a .com domain
-    for result in results:
-        link = result.find("a")["href"]
+for result in results:
+    link = result.find("a")["href"]
     if link.endswith(".com/") or link.endswith(".com"):
         # Return the website link
         return link
+
     # If no website is found, return None
     return None
 
