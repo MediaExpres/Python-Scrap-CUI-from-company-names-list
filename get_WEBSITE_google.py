@@ -11,7 +11,7 @@ output_file = "nume_companii_TV_straine_cu_web.csv"
 # Define the function to search for a company's website using Google
 def search_website(company):
     # Construct the Bing search query
-    query = company + " site:.com OR site:.net OR site:.ro OR site:.org OR site:.tv OR site:.eu"
+    query = company + " site:.com"
     # Use the search_web tool to get the Bing search results
     results = requests.get("https://www.bing.com/search?q=" + query).text
     # Parse the results using JSON
