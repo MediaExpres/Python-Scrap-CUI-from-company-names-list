@@ -1,56 +1,51 @@
-# Import the modules
 import csv
 import requests
 from bs4 import BeautifulSoup
 
-# Define the input and output files
-input_file = "nume_companii_TV_straine.csv"
-output_file = "output_companii_cu_web.csv"
+def find_website(company):
+    # Function to find the website of a company using web scraping
 
-# Define the function to scrape any https link that has a word in a list of names from a web page
-def scrape_link(name, url):
-    # Send a request to the web page and get the response
-    response = requests.get(url)
-    # Parse the response using BeautifulSoup
-    soup = BeautifulSoup(response.text, "html.parser")
-    # Find all the links in the web page
-    links = soup.find_all("a", href=True)
-    # Loop through the links
-    for link in links:
-        # Get the link's href attribute
-        href = link["href"]
-        # Check if the link is a https link and contains the name
-        if href.startswith("https://") and name.lower() in href.lower():
-            # Return the link
-            return href
-    # If no link is found, return None
+    search_url = f"https://www.google.com/search?q={company} website"
+    
+    try:
+        # Send an HTTP request to Google and get the HTML response
+        response = requests.get(search_url)
+        response.raise_for_status()  # Raise an exception for bad requests
+
+        # Parse the HTML content using BeautifulSoup
+        soup = BeautifulSoup(response.text, 'html.parser')
+
+        # Extract the first search result link (assuming it's the company's website)
+        result = soup.find('div', {'class': 'BNeawe UPmit AP7Wnd'})
+        if result:
+            return result.text
+
+    except requests.RequestException as e:
+        print(f"Error finding website for {company}: {e}")
+    
     return None
 
-# Open the input file and read the list of names
-with open(input_file, "r") as input:
-    reader = csv.reader(input)
-    # Skip the header row
-    next(reader)
-    # Create a list of names
-    names = [row[0] for row in reader]
+def main(input_csv, output_csv):
+    # Read the input CSV file
+    with open(input_csv, 'r') as infile:
+        reader = csv.reader(infile)
+        header = next(reader)  # Assuming the first row contains headers
+        companies = [row[0] for row in reader]  # Assuming company names are in the first column
 
-# Define the web page to scrape from
-web_page = "https://www.google.com/search?q=list+of+people+by+name"
+    # Find websites for each company
+    results = []
+    for company in companies:
+        website = find_website(company)
+        results.append({'Company': company, 'Website': website})
 
-# Create a list of links
-links = []
-# Loop through the list of names
-for name in names:
-    # Scrape the link using the function
-    link = scrape_link(name, web_page)
-    # Append the link to the list
-    links.append(link)
+    # Write results to a new CSV file
+    with open(output_csv, 'w', newline='') as outfile:
+        writer = csv.DictWriter(outfile, fieldnames=['Company', 'Website'])
+        writer.writeheader()
+        writer.writerows(results)
 
-# Open the output file and write the links
-with open(output_file, "w") as output:
-    writer = csv.writer(output)
-    # Write the header row
-    writer.writerow(["Name", "Link"])
-    # Write the name and link pairs
-    for i in range(len(names)):
-        writer.writerow([names[i], links[i]])
+if __name__ == "__main__":
+    input_csv = "input_companies.csv"  # Replace with the path to your input CSV file
+    output_csv = "output_websites.csv"  # Replace with the desired output CSV file path
+
+    main(input_csv, output_csv)
