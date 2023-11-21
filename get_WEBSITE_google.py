@@ -12,7 +12,7 @@ def search_website(company):
     # Construct the Bing search query
     query = company + " site:.com OR site:.net OR site:.ro OR site:.org OR site:.tv OR site:.eu"
     # Use the search_web tool to get the Bing search results
-    results = search_web(query)
+    results = requests.get("https://www.bing.com/search?q=" + query).text
     # Parse the results using JSON
     results = json.loads(results)
     # Find the first result that has a .com domain
