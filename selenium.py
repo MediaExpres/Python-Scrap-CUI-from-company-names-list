@@ -1,0 +1,1 @@
+to have the selenium library and the ChromeDriver executable installed
